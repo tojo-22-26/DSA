@@ -1,1 +1,2 @@
-arr
+
+        int n=arr.length;
