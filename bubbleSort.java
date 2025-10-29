@@ -8,6 +8,7 @@ public class bubbleSort {
         for(int ele:arr)
         {
             System.out.print(ele+" ");
+            System.out.println();1
         }
     }
     public static void main(String[] args) {
@@ -20,11 +21,12 @@ public class bubbleSort {
         {
             arr[i]=in.nextInt();
         }
+        print(arr);
         for(int i=0;i<n-1;i++)
         {
-            for(int j=0;j<n-i-1;j++)
+            for(int j=0;j<n-1;j++)
             {
-                if(arr[i]>arr[i+1])
+                if(arr[j]>arr[j+1])
             {
                 int temp=arr[j];
                 arr[j]=arr[j+1];
