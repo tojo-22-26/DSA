@@ -11,7 +11,7 @@ public class firstAndLastMethodTwo {
         {
             arr[i]=in.nextInt();
         }
-        System.out.print("Enter the target Value: ");
+        System.out.println("Enter the target Value: ");
         int target=in.nextInt();
         firstAndLastMethodTwo res = new firstAndLastMethodTwo();
         res.check(arr, target);

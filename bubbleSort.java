@@ -8,7 +8,7 @@ public class bubbleSort {
         for(int ele:arr)
         {
             System.out.print(ele+" ");
-            System.out.println();1
+            System.out.println();
         }
     }
     public static void main(String[] args) {
